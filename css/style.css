@@ -1,0 +1,149 @@
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #bc1a86 !important;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.illustration { 
+  width: 100%; /* Image in Jumbotron */
+  max-width: 500px;
+  display: block;
+ }
+
+h1 {
+  color: black;
+  text-align: left;
+}
+
+h2 {
+  color: black;
+  text-align: left;
+}
+
+.bg-1 { 
+    background-color: #bc1a7e; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #000000; /* White */
+    color: #ffffff;
+  }
+
+  .bg-4 { 
+    background-color: #2f2f2f; /* Footer */
+    color: #f8f8f8
+  }
+
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+ 
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font: 20px; 
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  
+   /* Footer */
+   
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  } 
+
+  p {font-size: 16px;}
+
+  .margin {margin-bottom: 45px;}
+
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+.small {
+    
+}
+
+
+/* form*/
+.contactform {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+}
+
+p.small {
+    font-size: 8px;
+}
